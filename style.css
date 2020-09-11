@@ -12,18 +12,12 @@
 .light-theme .header-link {
     color: #6653d9;
 }
-
-.light-theme .header-link::before {
-    background: url("img/arrow-back-light.svg") no-repeat 0 0;
+.dark-button-text{
+    color:blue;
 }
-
 .light-theme .theme-button {
     color: #6653d9;
     border: 1px solid #6653d9;
-}
-
-.light-theme .theme-button::before {
-    background-image: url("img/moon-normal.svg");
 }
 
 .light-theme .theme-button:focus,
@@ -246,34 +240,6 @@
     color: #17161a;
 }
 
-.dark-theme .news-view .row-view:focus::before,
-.dark-theme .news-view .row-view:hover::before,
-.dark-theme .news-view .row-view:active::before {
-    background-image: url("img/rows-dark-checked.svg");
-}
-
-.dark-theme .news-view .tile-view:focus::before,
-.dark-theme .news-view .tile-view:hover::before,
-.dark-theme .news-view .tile-view:active::before {
-    background-image: url("img/tiles-dark-checked.svg");
-}
-
-.dark-theme .row-view::before {
-    background-image: url("img/rows-dark.svg");
-}
-
-.dark-theme .tile-view::before {
-    background-image: url("img/tiles-dark.svg");
-}
-
-.dark-theme .row-view.view-checked::before {
-    background-image: url("img/rows-dark-checked.svg");
-}
-
-.dark-theme .tile-view.view-checked::before {
-    background-image: url("img/tiles-dark-checked.svg");
-}
-
 .dark-theme .new-block {
     background-color: #2a2930;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -313,8 +279,6 @@
     color: #17161a;
 }
 
-.dark-theme .subscription-message::before {
-    background-image: url("img/icon-ok-dark.svg");
 }
 
 .dark-theme .subscription-label {
