@@ -1,14 +1,15 @@
-let page = document.querySelector('.page');
-let themeButton = document.querySelector('#theme-button')
-themeButton.onclick = function () {
-    page.classList.toggle('light-theme');
-    page.classList.toggle('dark-theme');
-    console.log(themeButton.textContent)
-    if (document.body.classList.contains('light-theme')) {
-        themeButton.textContent = 'dark-theme'
+let themeButton = document.querySelector(".btn-dark")
+let pageTheme = document.querySelector(".page")
+themeButton.onclick = function(){
+    themeButton.classList.toggle("btn-dark")
+    themeButton.classList.toggle("btn-light")
+    if (themeButton.classList.contains("btn-light")) {
+        themeButton.textContent = "Light"
     }
-    if (document.body.classList.contains('dark-theme')) {
-        themeButton.textContent = 'light-theme'
+    if (themeButton.classList.contains("btn-dark")) {
+        themeButton.textContent = "Dark"
     }
-
-};
+    pageTheme.classList.toggle("dark-theme")
+    pageTheme.classList.toggle("light-theme")
+}
+console.log(themeButton)
